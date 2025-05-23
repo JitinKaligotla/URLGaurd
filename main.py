@@ -5,7 +5,7 @@ import uvicorn
 
 # Load model and vectorizer
 model = joblib.load("Url_phishing.pkl")
-vectorizer = joblib.load("url_vectorizer.pkl")
+vectorizer = joblib.load("url_VECtorizer.pkl")
 
 app = FastAPI()
 
